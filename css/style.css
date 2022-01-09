@@ -848,6 +848,9 @@ body{
     .radio-comingup-tilesimg{
         width: 100px;
     }
+    .navbarbuttons a{
+        font-size: 18px;
+    }
 }
 
 /*EVERYTHING BUT MOBILE > 800px*/
