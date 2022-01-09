@@ -57,7 +57,7 @@ function populateTeam(){
                     if(DJList[x].name != "autodj"){
                         let html = `
                         <div class="radio-team-tiles">
-                            <img src="img/staff/`+DJList[x].name+`.jpg" alt="DJ" class="radio-team-tilesimg"/>
+                            <img src="img/Staff/`+DJList[x].name+`.jpg" alt="DJ" class="radio-team-tilesimg"/>
                             <div class="radiotilestext">
                                 <div>
                                     <p class="djplayertext">`+DJList[x].label+`</p>
@@ -88,7 +88,7 @@ function populateTeam(){
                 for(let x in StaffList){
                     let html = `
                     <div class="radio-team-tiles">
-                        <img src="img/staff/`+StaffList[x].name+`.jpg" alt="DJ" class="radio-team-tilesimg"/>
+                        <img src="img/Staff/`+StaffList[x].name+`.jpg" alt="DJ" class="radio-team-tilesimg"/>
                         <div class="radiotilestext">
                             <div>
                                 <p id="djplayertext">`+StaffList[x].label+`</p>
