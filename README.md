@@ -3,6 +3,8 @@ Live preview: https://klibrdm.github.io/radio-project/
 
 radio-project was made as a project for university. The project had to be made with HTML, CSS and Javascript (+jQuery) so that brought some limitations. The data is stored in JSON files, while it works once you've set it up, it's a really tedious job to get everything ready. Follow the steps in **Setup** to get it running and then open `js/config.js`. You will find more details there.
 
+Note: The pages are changed using JavaScript, otherwise, the radio playback gets interrupted every time the user changes the page.
+
 ![screenshot](https://i.imgur.com/O7BnPiM.jpg)
 
 ## Setup
