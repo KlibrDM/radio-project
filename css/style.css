@@ -1,0 +1,980 @@
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none !important;
+}
+
+a{
+	text-decoration: none;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("../img/bg.jpg");
+    background-color: lightgray;
+}
+
+.container{
+    width: 100%;
+}
+
+.content{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*--ACCENT COLORS HERE--*/
+
+.accent-color-1{
+    background-color: #f5b942;
+    color: #ffffff !important;
+}
+
+.accent-text-color-1{
+    color: #ffffff;
+}
+
+.text-accent-color-1{
+    color: #f5b942 !important;
+}
+
+
+/*--NAVBAR--*/
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.navbar-fix{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar-fix2{
+    display: flex;
+}
+
+.navbarbuttons a{
+    color: black;
+    font-size: 20px;
+    line-height: 60px;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.burgerbutton{
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.burgerbutton button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#mobile-navbar{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255,255,255,0.95);
+}
+
+.mobile-navbar-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-navbar-buttons a{
+    color: black;
+    font-size: 20px;
+    line-height: 60px;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 90vw;
+}
+
+
+/*--RADIO SECTION--*/
+
+.radio-section{
+    width: 100%;
+}
+
+#radio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.radiotiles{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 48%;
+    display: flex;
+    background-color: white;
+}
+
+.radiotilesimg{
+    width: 200px;
+}
+
+.tilesbutton{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    border: 0;
+}
+
+#playbutton{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.radiotiles p{
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.radiotilestext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black !important;
+}
+
+.play-radio-action-buttons{
+    width: 100%;
+    display: flex;
+}
+
+.radio-volume-box{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+/*--BANNER--*/
+
+.banner{
+    margin-top: 10px;
+}
+
+#banner-radio img{
+    width: 100%;
+}
+
+
+/*--MIDDLE CONTENT--*/
+
+#middlecontent{
+    display: flex;
+}
+
+
+/*--FOLLOW US--*/
+
+#radio-followus{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-top: 10px;
+    row-gap: 10px;
+}
+
+#radio-followus a{
+    width: 49%;
+}
+
+#radio-followus a img{
+    width: 100%;
+    display: block;
+}
+
+
+/*--COMING UP--*/
+
+#radio-comingup{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 10px;
+}
+
+.cominguptext{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.radio-comingup-tiles{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.radio-comingup-tiles p{
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.radio-comingup-tilesimg{
+    width: 120px;
+}
+
+.comingup-tilesbutton{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+#comingup-schedule-button{
+    height: 100%;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*--TOP SONGS ON INDEX--*/
+
+.top-music-section{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.top-music-on-main-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page-song-tiles{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.main-page-music-yt-thumbnail{
+    width: 100%;
+    height: 160px;
+    background-position: center;
+    background-size: 300px;
+}
+
+.main-page-song-tiles .radiotilestext{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+.main-page-song-tiles .radiotilestext .team-tilesbutton{
+    margin-left: 0;
+}
+
+.main-page-song-tiles-label{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 24px;
+}
+
+.main-page-song-tiles-artist{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*--OTHER PAGES--*/
+
+/*--SELECTION--*/
+
+.selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.selection-title{
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.selection-options{
+    display: flex;
+    overflow-x: auto;
+}
+
+.selection-options-text{
+    white-space: nowrap;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
+}
+
+.selection-options::-webkit-scrollbar{
+    height: 10px;
+}
+
+.selection-options::-webkit-scrollbar-thumb{
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.selection-schedule .selection-options-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*--CUSTOM--*/
+
+.text-pages{
+    margin-top: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+
+/*--SCHEDULE--*/
+
+.radio-subsection{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.radio-schedule-tiles{
+    flex-basis: 49.2%;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    max-width: 49.2%;
+}
+
+.radio-schedule-tiles p{
+    margin-left: 10px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.radio-schedule-tiles .radiotilestext{
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.radio-schedule-tilesimg{
+    width: 180px;
+}
+
+
+/*--TEAM--*/
+
+.radio-team-tiles{
+    flex-basis: 32.4%;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    max-width: 32.4%;
+}
+
+.radio-team-tiles p{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.radio-team-tiles .radiotilestext{
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.radio-team-tilesimg{
+    width: 132px;
+}
+
+.team-tilesbutton{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+/*--MUSIC--*/
+
+.radio-music-tiles{
+    flex-basis: 32.4%;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    max-width: 32.4%;
+}
+
+.radio-music-tiles p{
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.radio-music-tiles .radiotilestext{
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.music-list-page-yt-thumbnail{
+    min-width: 132px;
+    min-height: 132px;
+    background-position: center;
+    background-size: 240px;
+}
+
+.music-list-label-text{
+    font-size: 20px;
+}
+
+.music-list-artist-text{
+    font-size: 16px;
+}
+
+.topmusictext{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background-color: white;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/*--INDIVIDUAL PAGES--*/
+
+.individual-page-content{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.individual-left{
+    flex-basis: 66%;
+}
+
+.individual-right{
+    flex-basis: 33%;
+}
+
+.individual-left-main img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.individual-left-title{
+    margin-top: 10px;
+}
+
+.individual-left-title p{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+}
+
+.individual-left-desc-text{
+    margin-top: 10px;
+}
+
+.individual-left-desc-text p{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+}
+
+
+/*--DJ PROFILE--*/
+
+.pdj_irm_box{
+    margin-bottom: 10px;
+}
+
+.pdj_irm_box_title{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pdj_irm_box_content{
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+/*--SONG LISTEN--*/
+
+#pm_ilm{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    background-color: black;
+}
+
+#pm_yt_embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#pm_irm_lyrics_text{
+    font-size: 14px;
+}
+
+
+/*--CONTACT--*/
+
+.contact-title-text{
+    font-size: 28px;
+    padding-left: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+.contact-box{
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    gap: 50px;
+}
+
+.alternative-contact{
+    flex-basis: 33%;
+}
+
+.alternative-contact-title{
+    font-size: 22px;
+    margin-top: 4px;
+}
+
+.contact-form > .alternative-contact-title{
+    margin-bottom: 8px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form > div{
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form > div > label{
+    margin-top: 8px;
+    font-size: 18px;
+    min-width: 100px;
+}
+
+.contact-form input{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 28px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.contact-form textarea{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 90px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.contact-form > input{
+    width: 120px;
+    height: 40px;
+    margin-left: 110px;
+    border: 0;
+}
+
+#form_submit:hover{
+    cursor: pointer;
+}
+
+.form-success-message{
+    padding: 16px;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: none;
+}
+
+.form-failure-message{
+    color: white;
+    padding: 16px;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: none;
+    background-color: #f37420;
+}
+
+
+/*--ERRORS--*/
+
+#errorpage{
+    background-color: white;
+    height: 40vh;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+#errorpage h1{
+    margin-top: 0px;
+}
+
+#timezone-warning{
+    display: none;
+}
+
+#timezone-warning-text{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    padding: 2px;
+    color: #aa3333;
+    background-color: white;
+    text-align: center;
+}
+
+
+/*--FOOTER--*/
+
+#footer{
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding-top: 20px;
+}
+
+.footer-row > a{
+    height: 60px;
+}
+
+.footer-row > a > img{
+    height: 100%;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+}
+
+.footer-column a{
+    max-width: 240px;
+}
+
+.footer-column a:hover{
+    color: rgb(230,230,230);
+}
+
+
+/*--MEDIA QUERIES--*/
+
+/*800px -> 1199px*/
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+    .content{
+        width: 95%;
+    }
+    .radiotiles p{
+        font-size: 24px;
+    }
+    .radio-comingup-tilesimg{
+        width: 120px;
+    }
+    #comingup-schedule-button{
+        line-height: 3vw;
+    }
+    .play-radio-action-buttons input{
+        width: 7vw;
+    }
+}
+
+/*800px -> 1050px*/
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    #comingup-schedule-button{
+        display: none;
+    }
+    .radio-comingup-tiles p{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .radiotiles p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .radio-music-tiles{
+        flex-basis: 49%;
+        max-width: 49%;
+    }
+
+    .main-page-song-tiles{
+        width: 120px;
+    }
+    .main-page-music-yt-thumbnail{
+        height: 120px;
+        background-size: 220px;
+    }
+    .main-page-song-tiles-label{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .main-page-song-tiles-artist{
+        font-size: 11px;
+    }
+}
+
+/*800px -> 980px*/
+@media only screen and (min-width: 800px) and (max-width: 980px) {
+    .play-radio-action-buttons{
+        flex-direction: column-reverse;
+    }
+    .play-radio-action-buttons input{
+        width: 10vw;
+    }
+}
+
+/*800px -> 920px*/
+@media only screen and (min-width: 800px) and (max-width: 920px) {
+    .radio-comingup-tiles p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .radio-comingup-tilesimg{
+        width: 100px;
+    }
+}
+
+/*EVERYTHING BUT MOBILE > 800px*/
+@media only screen and (min-width: 800px) {
+    .mobile-only{
+        display: none;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 800px) {
+    .mobile-only{
+        display: flex;
+    }
+    .desktop-only{
+        display: none;
+    }
+    
+    .navbar-fix2{
+        align-items: center;
+    }
+    .navbar-fix2 img{
+        height: 80%;
+    }
+    .navbarbuttons{
+        display: none;
+    }
+    .content{
+        max-width: 96vw;
+    }
+    #radio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .radiotiles{
+        width: 100%;
+    }
+    .radiotiles p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .radiotilesimg{
+        width: 160px;
+    }
+    .playradio{
+        margin-bottom:0;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    #middlecontent{
+        flex-direction: column;
+    }
+    #radio-followus{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #radio-followus a{
+        width: 49%;
+    }
+    #radio-comingup{
+        width: 100%;
+    }
+    .radio-comingup-tiles .radiotilestext p{
+        font-size: 20px;
+    }
+    .radio-comingup-tilesimg{
+        width: 140px;
+    }
+
+    .radio-schedule-tiles{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .radio-team-tiles{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .radio-music-tiles{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .individual-right{
+        display: none;
+    }
+    .individual-left{
+        width: 100%;
+    }
+
+    .top-music-on-main-page{
+        flex-wrap: wrap;
+    }
+    .main-page-song-tiles{
+        width: 45vw;
+    }
+    .main-page-music-yt-thumbnail{
+        height: 45vw;
+        background-size: 80vw;
+    }
+
+    .contact-box{
+        flex-direction: column;
+    }
+}
+
+/*0 --> 480px*/
+@media only screen and (max-width: 480px) {
+    .play-radio-action-buttons{
+        flex-direction: column-reverse;
+    }
+    .play-radio-action-buttons input{
+        width: 20vw;
+    }
+}
+
+/*ANIMISTA ANIMATIONS*/
+/* ----------------------------------------------
+ * Generated by Animista on 2022-1-9 0:44:35
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+.swing-in-top-fwd{-webkit-animation:swing-in-top-fwd .35s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-fwd .35s cubic-bezier(.175,.885,.32,1.275) both}
+@-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}
+
+.swing-out-top-bck{-webkit-animation:swing-out-top-bck .25s cubic-bezier(.4,.2,.735,.045) both;animation:swing-out-top-bck .25s cubic-bezier(.4,.2,.735,.045) both}
+@-webkit-keyframes swing-out-top-bck{0%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}100%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}}@keyframes swing-out-top-bck{0%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}100%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}}

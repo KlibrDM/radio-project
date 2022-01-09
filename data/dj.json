@@ -1,0 +1,92 @@
+{
+    "dj1":{
+        "name":"dj1",
+        "label":"DJ 1",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program1",
+		"programlabel":"Program 1",
+        "starthour":["07:00","07:00","07:00","07:00","07:00","08:00","08:00"]
+    },
+    "dj2":{
+        "name":"dj2",
+        "label":"DJ 2",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program2",
+		"programlabel":"Program 2",
+        "starthour":["14:00","14:00","16:00","14:00","14:00","11:00","11:00"]
+    },
+    "dj3":{
+        "name":"dj3",
+        "label":"DJ 3",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program3",
+		"programlabel":"Program 3",
+        "starthour":["10:00","10:00","10:00","10:00","10:00","0","0"]
+    },
+    "dj4":{
+        "name":"dj4",
+        "label":"DJ 4",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program4",
+		"programlabel":"Program 4",
+        "starthour":["16:00","16:00","14:00","16:00","16:00","14:00","14:00"]
+    },
+    "dj5":{
+        "name":"dj5",
+        "label":"DJ 5 has a really long name",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program4",
+		"programlabel":"Program 4",
+        "starthour":["16:00","16:00","14:00","16:00","16:00","14:00","14:00"]
+    },
+    "dj6":{
+        "name":"dj6",
+        "label":"DJ 6",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program5",
+		"programlabel":"Program 5",
+        "starthour":["18:00","18:00","18:00","18:00","18:00","18:00","18:00"]
+    },
+	"dj7":{
+        "name":"dj7",
+        "label":"DJ 7",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program6",
+		"programlabel":"Program 6",
+        "starthour":["20:00","20:00","20:00","20:00","20:00","20:00","20:00"]
+    },
+    "dj8":{
+        "name":"dj8",
+        "label":"DJ 8",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program1",
+		"programlabel":"Program 1",
+        "starthour":["07:00","07:00","07:00","07:00","07:00","08:00","08:00"]
+    },
+    "dj9":{
+        "name":"dj9",
+        "label":"DJ 9",
+        "staff":"team1",
+        "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae volutpat nibh. Etiam malesuada odio ut ligula luctus fringilla. Etiam elementum elementum nisl, in malesuada tortor. Mauris pulvinar ac tortor vel accumsan. Morbi condimentum magna et magna feugiat, vitae sodales ligula aliquam. Praesent vulputate quam id massa placerat, in gravida ligula aliquam. Sed mattis mollis velit, ac volutpat tellus fringilla sed. Donec ipsum arcu, semper non erat eu, faucibus bibendum eros. Proin vitae turpis a mi pellentesque scelerisque. Sed ultricies aliquet felis, vel tempor arcu interdum a.<br>Nam placerat sapien leo, semper aliquam mauris tempus eu. Curabitur consequat mi iaculis odio maximus, at ultricies nibh tristique. Sed consequat dictum nisi, et dignissim ipsum. Maecenas eget ultrices mauris, ut pretium tellus. Vestibulum non volutpat eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim urna, suscipit at semper at, malesuada ac quam. Nullam posuere dui sed odio dignissim, vitae tincidunt orci laoreet.",
+        "programname":"program7",
+		"programlabel":"Program 7",
+        "starthour":["0","0","0","0","0","16:00","16:00"]
+    },
+    "autodj":{
+        "name":"autodj",
+        "label":"AutoDJ",
+        "staff":"team1",
+        "details":"DJ Automat",
+        "programname":"autodj",
+		"programlabel":"AutoDJ",
+        "starthour":["00:00","00:00","00:00","00:00","00:00","02:00","23:00"]
+    }
+}

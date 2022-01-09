@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radio</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1de3a4529f.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Radio">
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section id="navbar">
+                <div class="content">
+                    <div class="navbar-fix">
+                        <a href="#index" redirect="page_index" class="navbar-fix2 pageswitchbtn"><img src="img/logo.png" alt="Radio Logo"/></a>
+                        <div class="navbarbuttons">
+                            <a redirect="page_index" class="pageswitchbtn" id="navbar_page_text_index" ttr="navbar_index" href="#index">Home</a>
+                            <a redirect="page_schedule" class="pageswitchbtn" id="navbar_page_text_schedule" ttr="navbar_schedule" href="#schedule">Schedule</a>
+                            <a redirect="page_team" class="pageswitchbtn" id="navbar_page_text_team" ttr="navbar_team" href="#team">Team</a>
+                            <a redirect="page_music" class="pageswitchbtn" id="navbar_page_text_music" ttr="navbar_music" href="#music">Music</a>
+                            <a redirect="page_contact" class="pageswitchbtn" id="navbar_page_text_contact" ttr="navbar_contact" href="#contact">Contact</a>
+                        </div>
+                        <div class="burgerbutton mobile-only" id="burgerbutton">
+                            <button><i class="fas fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mobile-navbar" class="mobile-only" style="display: none;">
+                <div class="mobile-navbar-buttons">
+                    <a redirect="page_index" class="pageswitchbtn mobilepageswitchbtn" id="mobile_navbar_page_text_index" ttr="navbar_index" href="#index">Home</a>
+                    <a redirect="page_schedule" class="pageswitchbtn mobilepageswitchbtn" id="mobile_navbar_page_text_schedule" ttr="navbar_schedule" href="#schedule">Schedule</a>
+                    <a redirect="page_team" class="pageswitchbtn mobilepageswitchbtn" id="mobile_navbar_page_text_team" ttr="navbar_team" href="#team">Team</a>
+                    <a redirect="page_music" class="pageswitchbtn mobilepageswitchbtn" id="mobile_navbar_page_text_music" ttr="navbar_music" href="#music">Music</a>
+                    <a redirect="page_contact" class="pageswitchbtn mobilepageswitchbtn" id="mobile_navbar_page_text_contact" ttr="navbar_contact" href="#contact">Contact</a>
+                </div>
+            </section>
+
+            <section class="radio-section accent-color-1">
+                <div class="content">
+                    <div id="radio">
+                        <div class="playradio radiotiles">
+                            <img src="img/cover.jpg" alt="Cover" class="radiotilesimg"/>
+                            <audio id="radioaudio" title="" preload="none"><source src="" id="audio-source" type="audio/mpeg" title="Radio"></audio>
+                            <div class="radiotilestext">
+                                <p id="playradiotext"><span ttr="press_play">Press Play to listen to us </span> <i class="fas fa-arrow-down"></i></p>
+                                <div class ="play-radio-action-buttons">
+                                    <button id="playbutton" class="accent-color-1 tilesbutton" ttr="play_button">Play</button>
+                                    <div class="radio-volume-box">
+                                        <i class="fas fa-volume-mute"></i>
+                                        <input type="range" min="0" max="100" value="35" id="volume-control">
+                                        <i class="fas fa-volume-up"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="djplayer radiotiles">
+                            <img src="img/cover.jpg" alt="DJ" class="radiotilesimg" id="mainplayerschedule_image"/>
+                            <div class="radiotilestext">
+                                <div>
+                                    <p class="djplayertext" id="mainplayerschedule_title"></p>
+                                    <p class="djplayerschedule" id="mainplayerschedule_hours"></p>
+                                </div>
+                                <p class="djhost" id="mainplayerschedule_host"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="timezone-warning">
+                <div class="content">
+                    <p id="timezone-warning-text"><span ttr="timezone_warning">You are in a different Timezone! Keep in mind that the schedule only applies for</span> <span id="timezone-req"></span></p>
+                </div>
+            </section>
+
+            <section id="js-handler-index" style="display: none;">
+                <section class="banner">
+                    <div class="content">
+                        <div id="banner-radio">
+                            <a id="banner1" href="#index"><img src="img/banner1.jpg" alt="Banner" style="display: block;"/></a>
+                            <a id="banner2" href="#index"><img src="img/banner2.jpg" alt="Banner" style="display: block;"/></a>
+                            <a id="banner3" href="#index"><img src="img/banner3.jpg" alt="Banner" style="display: block;"/></a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="middle">
+                    <div class="content" id="middlecontent">
+                        <div id="radio-followus">
+                            <a id="follow1" href="#index"><img src="img/follow1.jpg" alt="Instagram"/></a>
+                            <a id="follow2" href="#index"><img src="img/follow2.jpg" alt="Spotify"/></a>
+                            <a id="follow3" href="#index"><img src="img/follow3.jpg" alt="Facebook"/></a>
+                            <a id="follow4" href="#index"><img src="img/follow4.jpg" alt="Youtube"/></a>
+                        </div>
+                        <div id="radio-comingup">
+                            <p class="cominguptext"><i class="far fa-clock"></i> <span ttr="coming_up">Coming up</span> </p>
+                            <div class="radio-comingup-tiles">
+                                <img src="img/cover.jpg" alt="DJ" class="radio-comingup-tilesimg" id="mainpagecomingup_image_1"/>
+                                <div class="radiotilestext">
+                                    <div>
+                                        <p class="djplayertext" id="mainpagecomingup_title_1"></p>
+                                        <p class="djplayerschedule" id="mainpagecomingup_hours_1"></p>
+                                    </div>
+                                    <p class="djhost" id="mainpagecomingup_host_1"></p>
+                                </div>
+                            </div>
+                            <div class="radio-comingup-tiles">
+                                <img src="img/cover.jpg" alt="DJ" class="radio-comingup-tilesimg" id="mainpagecomingup_image_2"/>
+                                <div class="radiotilestext">
+                                    <div>
+                                        <p class="djplayertext" id="mainpagecomingup_title_2"></p>
+                                        <p class="djplayerschedule" id="mainpagecomingup_hours_2"></p>
+                                    </div>
+                                    <p class="djhost" id="mainpagecomingup_host_2"></p>
+                                </div>
+                            </div>
+                            <a id="comingup-schedule-button" redirect="page_schedule" href="#schedule" class="accent-color-1 pageswitchbtn" ttr="see_schedule_index_label">See full schedule</a>
+                        </div>
+                    </div>
+                </section>
+
+
+                <div class="content"><p class="mobile-only topmusictext"><i class="fas fa-arrow-up"></i> <span ttr="music_top_index_label">Top Muzică</span> </p></div>
+                <section class="top-music-section accent-color-1">
+                    <div class="content">
+                        <div class="top-music-on-main-page" id="top-music-on-main-page"></div>
+                    </div>
+                </section>
+
+                <section class="custom">
+                    <div class="content">
+                        <div id="custom-block" class="text-pages"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-schedule" style="display: none;">
+                <section class="selection-schedule">
+                    <div class="content">
+                        <div class="selection" id="schedule-selection">
+                            <p class="selection-title" ttr="schedule_title">Schedule</p>
+                            <div class="selection-options">
+                                <a redirect_subsection="sub_day1" subsection_status="inactive" href="#schedule" id="subsection-button-day1" class="selection-options-text" ttr="day1">Monday</a>
+                                <a redirect_subsection="sub_day2" subsection_status="inactive" href="#schedule" id="subsection-button-day2" class="selection-options-text" ttr="day2">Tuesday</a>
+                                <a redirect_subsection="sub_day3" subsection_status="inactive" href="#schedule" id="subsection-button-day3" class="selection-options-text" ttr="day3">Wednesday</a>
+                                <a redirect_subsection="sub_day4" subsection_status="inactive" href="#schedule" id="subsection-button-day4" class="selection-options-text" ttr="day4">Thursday</a>
+                                <a redirect_subsection="sub_day5" subsection_status="inactive" href="#schedule" id="subsection-button-day5" class="selection-options-text" ttr="day5">Friday</a>
+                                <a redirect_subsection="sub_day6" subsection_status="inactive" href="#schedule" id="subsection-button-day6" class="selection-options-text" ttr="day6">Saturday</a>
+                                <a redirect_subsection="sub_day7" subsection_status="inactive" href="#schedule" id="subsection-button-day7" class="selection-options-text" ttr="day7">Sunday</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="schedule-tiles-menu">
+                    <div class="content">
+                        <div class="radio-subsection" id="radio-subsection-day1" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-day2" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-day3" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-day4" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-day5" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-day6" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-day7" style="display: none;"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-team" style="display: none;">
+                <section class="selection-team">
+                    <div class="content">
+                        <div class="selection" id="team-selection">
+                            <p class="selection-title" ttr="team_title">Team</p>
+                            <div class="selection-options">
+                                <a redirect_subsection="sub_team1" subsection_status="inactive" href="#team" id="subsection-button-team1" class="selection-options-text" ttr="team1">DJ</a>
+                                <a redirect_subsection="sub_team2" subsection_status="inactive" href="#team" id="subsection-button-team2" class="selection-options-text" ttr="team2">Event organisers</a>
+                                <a redirect_subsection="sub_team3" subsection_status="inactive" href="#team" id="subsection-button-team3" class="selection-options-text" ttr="team3">IT</a>
+                                <a redirect_subsection="sub_team4" subsection_status="inactive" href="#team" id="subsection-button-team4" class="selection-options-text" ttr="team4">Administration</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="team-tiles-menu">
+                    <div class="content">
+                        <div class="radio-subsection" id="radio-subsection-team1" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-team2" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-team3" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-team4" style="display: none;"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-music" style="display: none;">
+                <section class="selection-music">
+                    <div class="content">
+                        <div class="selection" id="music-selection">
+                            <p class="selection-title" ttr="music_title">Music</p>
+                            <div class="selection-options">
+                                <a redirect_subsection="sub_music1" subsection_status="inactive" href="#music" id="subsection-button-music1" class="selection-options-text" ttr="music1">Top</a>
+                                <a redirect_subsection="sub_music2" subsection_status="inactive" href="#music" id="subsection-button-music2" class="selection-options-text" ttr="music2">New</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="music-tiles-menu">
+                    <div class="content">
+                        <div class="radio-subsection" id="radio-subsection-music1" style="display: none;"></div>
+                        <div class="radio-subsection" id="radio-subsection-music2" style="display: none;"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-contact" style="display: none;">
+                <section class="contact-title-section">
+                    <div class="content">
+                        <p class="contact-title-text" ttr="contact_title">Contact</p>
+                    </div>
+                </section>
+                
+                <section class="contact-form-section">
+                    <div class="content">
+                        <div class="contact-box">
+                            <div class="alternative-contact">
+                                <p class="alternative-contact-title" ttr="alternative_contact">Contact methods</p>
+                                <hr>
+                                <p class="alternative-contact-text" ttr="alt_method1">Call us at: 0798 765 432</p>
+                                <hr>
+                                <p class="alternative-contact-text" ttr="alt_method2">Message us on WhatsApp at: 0798 765 432</p>
+                                <hr>
+                                <p class="alternative-contact-text" ttr="alt_method3">E-mail us at: contact@radio.com</p>
+                            </div>
+                            <form class="contact-form" id="contact-form" onsubmit="event.preventDefault()">
+                                <p class="alternative-contact-title" ttr="contact_form">Contact form</p>
+                                <div>
+                                    <label for="form_name" ttr="contact_form_name">Name:</label>
+                                    <input type="text" id="form_name" name="form_name" pattern="[a-zA-Z\s\-]+" required>
+                                </div>
+                                <div>
+                                    <label for="form_email" ttr="contact_form_email">Email:</label>
+                                    <input type="email" id="form_email" name="form_email" required>
+                                </div>
+                                <div>
+                                    <label for="form_message" ttr="contact_form_message">Message:</label>
+                                    <textarea id="form_message" name="form_message" cols="50" maxlength="3000" required></textarea>
+                                </div>
+                                <input id="form_submit" class="accent-color-1" name="form_submit" type="submit" value="Send">
+                                <p class="form-success-message accent-color-1" ttr="contact_form_success">Your message was sent successfully</p>
+                                <p class="form-failure-message" ttr="contact_form_failure">Your message couldn't be sent. Please try again later!</p>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-djprofile" style="display: none;">
+                <div class="content individual-page-content">
+                    <section class="individual-left">
+                        <div class="individual-left-main" id="pdj_ilm"></div>
+                        <div class="individual-left-title" id="pdj_ilt"></div>
+                        <div class="individual-left-desc-text" id="pdj_ildt"></div>
+                    </section>
+                    
+                    <section class="individual-right">
+                            <div class="individual-right-main" id="pdj_irm"></div>
+                    </section>
+                </div>
+            </section>
+
+            <section id="js-handler-listen" style="display: none;">
+                <div class="content individual-page-content">
+                    <section class="individual-left">
+                        <div class="individual-left-main" id="pm_ilm"></div>
+                        <div class="individual-left-title" id="pm_ilt"></div>
+                        <div class="individual-left-desc-text" id="pm_ildt"></div>
+                    </section>
+                    
+                    <section class="individual-right">
+                            <div class="individual-right-main" id="pm_irm"></div>
+                    </section>
+                </div>
+            </section>
+
+            <section id="js-handler-aboutus" style="display: none;">
+                <section class="custom">
+                    <div class="content">
+                        <div id="about-us" class="text-pages"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-terms" style="display: none;">
+                <section class="custom">
+                    <div class="content">
+                        <div id="terms-and-conditions" class="text-pages"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-cookiepolicy" style="display: none;">
+                <section class="custom">
+                    <div class="content">
+                        <div id="cookie-policy" class="text-pages"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="js-handler-error" style="display: none;">
+                <section class="error">
+                    <div class="content">
+                        <div id="errorpage">
+                            <h1 ttr="error_404">Error 404</h2>
+                            <h3 ttr="error_404_text">The page you are looking for doesn't exist!</h3>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="footer" class="accent-color-1">
+                <div class="content">
+                    <div class="footer-row">
+                        <a href="#index" redirect="page_index" class="desktop-only pageswitchbtn"><img src="img/logo_alternative.png" alt="Radio Logo"/></a>
+                        <div class="footer-column" id="fc1">
+                            <a redirect="page_aboutus" class="pageswitchbtn accent-text-color-1" id="footer_page_text_aboutus" href="#aboutus" ttr="footer_about_us">About us</a>
+                            <a redirect="page_terms" class="pageswitchbtn accent-text-color-1" id="footer_page_text_terms" href="#terms" ttr="footer_terms_and_conditions">Terms and conditions</a>
+                            <a redirect="page_cookiepolicy" class="pageswitchbtn accent-text-color-1" id="footer_page_text_cookiepolicy" href="#cookiepolicy" ttr="footer_cookie_policy">Cookie Policy</a>
+                            <a redirect="page_contact" class="pageswitchbtn accent-text-color-1" id="footer_page_text_contact" href="#contact" ttr="footer_contact">Contact</a>
+                        </div>
+                        <div class="footer-column" id="fc2">
+                            <a redirect="page_index" class="pageswitchbtn accent-text-color-1" id="footer_page_text_index" href="#index" ttr="navbar_index">Home</a>
+                            <a redirect="page_schedule" class="pageswitchbtn accent-text-color-1" id="footer_page_text_schedule" href="#schedule" ttr="navbar_schedule">Schedule</a>
+                            <a redirect="page_team" class="pageswitchbtn accent-text-color-1" id="footer_page_text_team" href="#team" ttr="navbar_team">Team</a>
+                            <a redirect="page_music" class="pageswitchbtn accent-text-color-1" id="footer_page_text_music" href="#music" ttr="navbar_music">Music</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script type="application/javascript"   src="js/config.js"></script>
+        <script type="application/javascript"   src="js/configLoader.js"></script>
+        <script type="application/javascript"   src="js/classes.js"></script>
+        <script type="application/javascript"   src="js/globals.js"></script>
+        <script type="application/javascript"   src="js/loadData.js"></script>
+        <script type="application/javascript"   src="js/pageHandler.js"></script>
+        <script type="application/javascript"   src="js/controller.js"></script>
+        <script type="application/javascript"   src="js/eventListener.js"></script>
+        <script type="application/javascript"   src="js/misc.js"></script>
+        <script type="application/javascript"   src="js/translate.js"></script>
+    </body>
+</html>
