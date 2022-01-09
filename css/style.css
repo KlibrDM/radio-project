@@ -404,7 +404,7 @@ body{
     background-color: white;
     display: flex;
     flex-grow: 1;
-    max-width: 49.2%;
+    max-width: 49.5%;
 }
 
 .radio-schedule-tiles p{
@@ -432,7 +432,7 @@ body{
     background-color: white;
     display: flex;
     flex-grow: 1;
-    max-width: 32.4%;
+    max-width: 32.8%;
 }
 
 .radio-team-tiles p{
@@ -470,7 +470,7 @@ body{
     background-color: white;
     display: flex;
     flex-grow: 1;
-    max-width: 32.4%;
+    max-width: 32.8%;
 }
 
 .radio-music-tiles p{
@@ -810,7 +810,7 @@ body{
     }
     .radio-music-tiles{
         flex-basis: 49%;
-        max-width: 49%;
+        max-width: 49.5%;
     }
 
     .main-page-song-tiles{
