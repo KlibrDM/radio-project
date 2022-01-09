@@ -119,7 +119,8 @@ function populateSchedule(){
     let loadFinished = 0;
     if(!loadFinished){
         let wait = setInterval(function(){ 
-            if(Object.keys(ProgramList).length != 0){
+            //Check for both Program and DJ lists because we will have to get the label of the DJs
+            if(Object.keys(ProgramList).length != 0 && Object.keys(DJList).length != 0){
                 loadFinished = 1;
                 clearInterval(wait);
 
@@ -392,7 +393,8 @@ function setComingUpSchedule(){
     let loadFinished = 0;
     if(!loadFinished){
         let wait = setInterval(function(){ 
-            if(Object.keys(ProgramList).length != 0){
+            //Check for both Program and DJ lists because we will have to get the label of the DJs
+            if(Object.keys(ProgramList).length != 0 && Object.keys(DJList).length != 0){
                 loadFinished = 1;
                 clearInterval(wait);
 
