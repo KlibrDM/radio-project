@@ -941,6 +941,7 @@ body{
     }
     .individual-left{
         width: 100%;
+	flex-basis: 100%;
     }
 
     .top-music-on-main-page{
